@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "build": "echo \"No build step required\""
+    "build": "npm install"
   },
   "dependencies": {
     "@arcjet/inspect": "^1.0.0-beta.10",
