@@ -6,8 +6,8 @@ const userRouter = Router()
 
 userRouter.get('/',authorize,getUsers)
 userRouter.get('/:id',authorize,getUser)
-userRouter.put('/:id',authorize,updateUser)
-userRouter.get('/',authorize,deleteUser)
+userRouter.put('/user/:id/update',authorize,updateUser)
+userRouter.delete('user/:id/delete',authorize,deleteUser)
 
 
 
