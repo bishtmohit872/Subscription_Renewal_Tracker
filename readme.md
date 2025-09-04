@@ -47,7 +47,7 @@ Built with **Node.js, Express.js, MongoDB, Arcjet, and Upstash Workflow**, this 
 - **Security**: [Arcjet](https://arcjet.com/) (Rate limiting, bot protection, Dos Attack Protection)  
 - **Workflow & Automation**: [Upstash](https://upstash.com/)
 - **Email Service**: [NodeMailer](https://nodemailer.com/)  
-- **Render**: [Hostinger VPS ](https://render.com/) 
+- **Render**: [Render](https://render.com/) 
 - **Development Tools**: ESLint  
 
 ---
