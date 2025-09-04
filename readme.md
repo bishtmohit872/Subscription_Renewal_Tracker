@@ -74,6 +74,8 @@ Built with **Node.js, Express.js, MongoDB, Arcjet, and Upstash Workflow**, this 
 
 ## 📌 API Endpoints  
 
+## BASE-URL - `https://subscription-renewal-tracker.onrender.com`
+
 ### 🔑 Auth Routes (`/api/v1/auth`)  
 - `POST /sign-in` → User login, returns JWT token.  
 - `POST /sign-up` → Register a new user.  
