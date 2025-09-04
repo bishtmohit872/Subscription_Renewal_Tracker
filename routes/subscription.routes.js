@@ -4,17 +4,17 @@ import { getAllSubscriptions, createSubscription, updateSubscription, deleteSubs
 
 const subscriptionRouter = Router()
 
-subscriptionRouter.get('/',authorize,getAllSubscriptions)
+subscriptionRouter.get('/all',authorize,getAllSubscriptions)
 
 subscriptionRouter.get('/:id',authorize,getSubscriptionDetails)
 
-subscriptionRouter.post('/',authorize,createSubscription)
+subscriptionRouter.post('/create',authorize,createSubscription)
 
-subscriptionRouter.put('/:id',authorize,updateSubscription)
+subscriptionRouter.put('update/:id',authorize,updateSubscription)
 
-subscriptionRouter.delete('/:id',authorize,deleteSubscription)
+subscriptionRouter.delete('delete/:id',authorize,deleteSubscription)
 
-subscriptionRouter.get('/user/:id',authorize,getUserSubscription)
+subscriptionRouter.get('/user/:id/subscriptions',authorize,getUserSubscription)
 
 subscriptionRouter.put('/:id/cancel',authorize,cancelSubscription)
 
