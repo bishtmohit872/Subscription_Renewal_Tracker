@@ -5,7 +5,7 @@ import subscriptionRouter from "../routes/subscription.routes.js"
 
 export const getAllSubscriptions = async (req,res,next)=>{
     try{
-        const allSubscriptions = await Subscription.find()
+        const allSubscriptions = await Subscription.find(req.user.id)
         res.status(200).json({success:true,data:allSubscriptions})
     }
     catch(error){
