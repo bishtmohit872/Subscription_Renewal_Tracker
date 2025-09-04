@@ -30,5 +30,5 @@ app.use('/api/v1/workflows',workFlowRouter)
 app.use(errorMiddleware)
 
 app.get('/',(req,res)=>{
-    res.send('project initiated')
+    res.send('Please check my GitHub repository: https://github.com/bishtmohit872/Subscription_Renewal_Tracker,<br/> I have already mentioned all the APIs there. You can review them and also test them in Postman. ')
 })
