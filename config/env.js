@@ -11,7 +11,6 @@ export const { PORT,
     ARCJET_KEY,
     QSTASH_URL,
     QSTASH_TOKEN,
-    SERVER_URL:"https://subscription-renewal-tracker.onrender.com",
-    // SERVER_URL,
+    SERVER_URL,
     EMAIL_PASSWORD
 } = process.env
